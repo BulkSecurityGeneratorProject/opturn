@@ -7,6 +7,7 @@
             "entities": {
                 "main": "Entités",
                 "trait": "Trait",
+                "study": "Study",
                 "additionalEntity": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

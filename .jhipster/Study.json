@@ -1,0 +1,49 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "traits",
+            "otherEntityName": "trait",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "objective",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "type",
+            "fieldType": "StudyType",
+            "fieldValues": "NURSERY,TRIAL"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "startDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "endDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20150918045134",
+    "dto": "mapstruct",
+    "pagination": "pagination"
+}

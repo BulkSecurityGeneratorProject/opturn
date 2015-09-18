@@ -1,0 +1,25 @@
+{
+    "bmsapi2App": {
+        "study" : {
+            "home": {
+                "title": "Studys",
+                "createLabel": "Créer un nouveau Study",
+                "createOrEditLabel": "Créer ou éditer un Study"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Study {{ id }} ?"
+            },
+            "detail": {
+                "title": "Study"
+            },
+            "name": "Name",
+            "description": "Description",
+            "objective": "Objective",
+            "type": "Type",
+            "startDate": "StartDate",
+            "endDate": "EndDate",
+            "traits": "Traits"
+        }
+    }
+}
+

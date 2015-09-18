@@ -1,0 +1,9 @@
+{
+    "bmsapi2App": {
+        "StudyType" : {
+            "SELECT": "{VALUE, select, NURSERY{NURSERY} TRIAL{TRIAL} other{}}",
+            "NURSERY": "NURSERY",
+            "TRIAL": "TRIAL"
+        }
+    }
+}
