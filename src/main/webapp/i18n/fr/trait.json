@@ -1,0 +1,24 @@
+{
+    "bmsapi2App": {
+        "trait" : {
+            "home": {
+                "title": "Traits",
+                "createLabel": "Créer un nouveau Trait",
+                "createOrEditLabel": "Créer ou éditer un Trait"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Trait {{ id }} ?"
+            },
+            "detail": {
+                "title": "Trait"
+            },
+            "name": "Name",
+            "description": "Description",
+            "property": "Property",
+            "measurementMethod": "MeasurementMethod",
+            "scale": "Scale",
+            "studies": "Studies"
+        }
+    }
+}
+
